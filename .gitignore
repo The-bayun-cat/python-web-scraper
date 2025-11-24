@@ -1,0 +1,37 @@
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VirtualEnv
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Логи и кэш
+*.log
+*.cache
+
+# Установленные зависимости
+pip-selfcheck.json
+
+# Файлы сборки и дистрибуции
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Тестовые данные
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Конфиги (если не нужно коммитить)
+*.env
+*.secret
